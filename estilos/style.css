@@ -1,0 +1,174 @@
+header {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+header img.logo {
+    max-width: 100%;
+    height: auto;
+}
+
+.ed-menu a:hover {
+    background: #e67e22;
+    color: #fff; /* Corregido */
+    transition: all 0.5s ease;
+    text-decoration: none;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: #000;
+    text-decoration: none;
+}
+
+.centro {
+    text-align: center;
+}
+
+.izquierda {
+    text-align: left;
+}
+
+.derecha {
+    text-align: right;
+}
+
+.img-size {
+    width: 100%; /* Cambiado para ser responsivo */
+    max-width: 200px; /* Tamaño máximo */
+    height: auto; /* Mantener proporción */
+}
+
+.redes {
+    width: 80px;
+    height: 80px;
+}
+
+.fondo {
+    background-color: #f8c471 ;
+}
+
+.clientes {
+    width: 100%; /* Cambiado para ser responsivo */
+    max-width: 170px; /* Tamaño máximo */
+    height: auto; /* Mantener proporción */
+}
+
+.negrita {
+    font-weight: 900;
+}
+
+.justificado {
+    text-align: justify;
+}
+
+footer {
+    background-color:#e67e22 ;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+.ric {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 20px; /* Opcional: espacio alrededor del iframe */
+    box-sizing: border-box;
+}
+
+
+@media (max-width: 768px) {
+    
+    .res{
+        justify-content: center; /* Centra horizontal y verticalmente */
+            
+    }
+    .log {
+        padding: 10px;
+        background-color: #e67e22;
+    }
+
+    .logotipo {
+        max-width: 40%;
+        height: auto;
+    }
+
+    nav ul li {
+        display: block;
+        margin-bottom: 20px;
+    }
+
+    .ed-menu a:hover {
+        background: #fff;
+        color: #e67e22; 
+        transition: all 0.5s ease;
+        text-decoration: none;
+    }
+
+    .ed-item {
+        text-align: center;
+    }
+
+    .redes {
+        display: inline-block;
+        margin: 10px;
+    }
+    .borde{
+        padding: 20px;
+        margin: 8px;
+    }
+    /* Contenedor principal para centrar */
+.ric {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 20px; /* Opcional: espacio alrededor del iframe */
+    box-sizing: border-box;
+}
+
+/* Contenedor del iframe responsivo */
+.ri {
+    position: relative;
+    width: 100%;
+    max-width: 800px; /* Ajusta este valor según el tamaño máximo deseado */
+}
+
+.ri iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+.carousel-control-prev,
+.carousel-control-next {
+    width: 5%; /* Ajusta el ancho para que los botones estén cerca del contenido */
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente */
+    border-radius: 50%; /* Botones redondeados */
+    padding: 10px; /* Espaciado interno */
+}
+
+.carousel-inner img {
+    max-height: 600px; /* Ajusta la altura máxima de las imágenes */
+    object-fit: cover; /* Asegura que las imágenes se ajusten al carrusel */
+}
+
+    
+}
